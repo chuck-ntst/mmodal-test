@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mmodal';
+
+
+  public fluencyDirectTest(): void {
+    console.log('Made it here 1');
+  }
 }
